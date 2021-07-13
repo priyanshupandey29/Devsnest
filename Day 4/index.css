@@ -1,0 +1,74 @@
+.container {
+  margin: auto;
+  width: 50%;
+  margin-top: 90px;
+}
+
+.circle {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  position: relative;
+  left: 100px;
+  border: 1px solid black;
+  background-color: black;
+  box-shadow: 0 0 100px whitesmoke;
+}
+
+.small_circle {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: 0 0 10px white;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+#center {
+  height: 12px;
+  width: 12px;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: relative;
+  top: 150px;
+}
+
+#hours {
+  height: 90px;
+  width: 4px;
+  position: relative;
+  top: 53px;
+  right: 1px;
+  margin: auto;
+  transform-origin: bottom;
+  background-color: red;
+}
+
+#minutes {
+  height: 95px;
+  width: 3px;
+  margin: auto;
+  align-items: center;
+  position: relative;
+  bottom: 40px;
+  transform-origin: bottom;
+  background-color: red;
+}
+
+#seconds {
+  height: 120px;
+  width: 2px;
+  margin: auto;
+  position: relative;
+  bottom: 160px;
+  align-items: center;
+  transform-origin: bottom;
+  background-color: red;
+}
+
+body {
+  background-color: black;
+}
