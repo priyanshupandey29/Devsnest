@@ -1,0 +1,15 @@
+<!-- Try to use events on objects -->
+<html>
+  <body>
+    <button id="btn">Click Me</button>
+    <script>
+      var x = {
+        fullName: "priyanshu pandey",
+      };
+      console.log(x.fullName);
+      document.getElementById("btn").addEventListener("click", function () {
+        console.log(x.fullName.toUpperCase());
+      });
+    </script>
+  </body>
+</html>

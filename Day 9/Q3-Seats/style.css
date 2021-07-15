@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  display: border-box;
+}
+.details {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  flex: wrap;
+  position: relative;
+  left: 500px;
+  border: 1px solid black;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+body {
+  height: 100vh;
+  display: flex;
+}
+.box {
+  height: 80vh;
+  width: 58vw;
+  display: flex;
+  position: relative;
+  top: 110px;
+  flex-wrap: wrap;
+}
+.seats {
+  height: 80px;
+  width: 130px;
+  display: flex;
+  margin: a;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px solid white;
+  background-color: rgb(248, 64, 8);
+}
+.box:hover {
+  opacity: 0.9;
+}
+.boxclicked {
+  background-color: black;
+}
+.booked {
+  height: 25px;
+  width: 100px;
+  position: relative;
+  left: 400px;
+}
+.Remaining {
+  height: 25px;
+  width: 150px;
+  position: relative;
+  left: 700px;
+}

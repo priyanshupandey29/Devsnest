@@ -1,0 +1,24 @@
+<!--  Create 2 object and try to use call, apply and bind on them  -->
+<html>
+  <body>
+    <script>
+      const obj1 = {
+        fun: function () {
+          return this.firstName + " " + this.lastName;
+        },
+      };
+      const obj2 = {
+        firstName: "Priyanshu",
+        lastName: "Pandey",
+      };
+      function call() {
+        return obj1.fun.call(obj2);
+      }
+      function apply() {
+        return obj1.fun.apply(obj2);
+      }
+      console.log(call());
+      console.log(apply());
+    </script>
+  </body>
+</html>
