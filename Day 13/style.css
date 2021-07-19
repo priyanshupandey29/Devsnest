@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+header {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.box {
+  height: 200px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: none;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.quote {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: blue;
+}
+
+.author {
+  height: 50px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: springgreen;
+}
+
+.clickMe {
+  font-size: 20px;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
